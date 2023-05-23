@@ -24,7 +24,7 @@ CREATE TABLE `tbl_mahasiswa` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nim` char(8) DEFAULT NULL,
   `nama` varchar(200) DEFAULT NULL,
-  `jk` char(1) DEFAULT NULL,
+  `konsentrasi` char(1) DEFAULT NULL,
   `alamat` text,
   `jurusan` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -32,10 +32,10 @@ CREATE TABLE `tbl_mahasiswa` (
 
 /*Data for the table `tbl_mahasiswa` */
 
-insert  into `tbl_mahasiswa`(`id`,`nim`,`nama`,`jk`,`alamat`,`jurusan`) values 
-(1,'15119999','muhammad al fatih','L','Jl. P. Puger 2 No 19','Informatika'),
+insert  into `tbl_mahasiswa`(`id`,`nim`,`nama`,`konsentrasi`,`alamat`,`jurusan`) values 
+(1,'2281476290','kelvin siahaan','L','tidak ada','bisnis digital'),
+(2,'16119212','yansha juliano','P','Jl. Ringin Raya','Sistem Informasi'),
 (2,'16119212','Fatimah','P','Jl. Ringin Raya','Sistem Informasi');
-
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
